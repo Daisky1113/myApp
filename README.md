@@ -4,9 +4,10 @@ myApp
 
 1. 適当な場所に `git clone`する
 2. `cd myApp`する
-3. `docker-compose build` する
-4. `docker-compose run --rm frontend npx create-nuxt-app`する
-5. `docker-compose up -d`する
+3. `myApp`直下に`.env`ファイルをつくってslackの内容をコピペする 
+4. `docker-compose build` する
+5. `docker-compose run --rm frontend npx create-nuxt-app`する
+6. `docker-compose up -d`する
 
 # Nuxtのオプションの意味
 
